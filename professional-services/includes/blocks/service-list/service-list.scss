@@ -1,0 +1,61 @@
+.service-list {
+    &.grid {            
+        display: grid;
+        grid-template-columns: repeat(12, [col] 1fr);
+        grid-template-rows: repeat(5, [row] auto);
+        grid-column-gap: 1em;
+        grid-row-gap: 15px;
+    }
+
+    &-item {
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;
+    }
+}
+
+.col-span {    
+    &-two {
+        grid-column: span 2;
+    }
+    
+    &-three {
+        grid-column: span 3;
+    }
+
+    &-four {
+        grid-column: span 4;
+    }
+
+    &-five {
+        grid-column: span 5;
+    }
+
+    &-six {
+        grid-column: span 6;
+    }
+
+    &-seven {
+        grid-column: span 7;
+    }
+
+    &-eight {
+        grid-column: span 8;
+    }
+
+    &-nine {
+        grid-column: span 9;
+    }
+
+    &-ten {
+        grid-column: span 10;
+    }
+
+    &-eleven {
+        grid-column: span 11;
+    }
+
+    &-twelve {
+        grid-column: span 12;
+    }
+}

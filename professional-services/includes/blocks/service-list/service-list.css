@@ -1,0 +1,31 @@
+.service-list.grid {
+  display: grid;
+  grid-template-columns: repeat(12, [col] 1fr);
+  grid-template-rows: repeat(5, [row] auto);
+  grid-column-gap: 1em;
+  grid-row-gap: 15px;
+}
+.service-list-item {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+}
+
+.col-span-two {
+  grid-column: span 2;
+}
+.col-span-three {
+  grid-column: span 3;
+}
+.col-span-four {
+  grid-column: span 4;
+}
+.col-span-five {
+  grid-column: span 5;
+}
+.col-span-six {
+  grid-column: span 6;
+}
+.col-span-seven {
+  grid-column: span 7;
+}

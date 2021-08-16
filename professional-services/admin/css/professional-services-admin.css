@@ -1,0 +1,119 @@
+.hidden {
+  display: none !important;
+}
+
+.img-fluid {
+  max-width: 100%;
+}
+
+.btn-videos {
+  width: 20%;
+}
+
+.dashboard-cards {
+  background: #ffffff;
+  border-radius: 3px;
+  padding: 5rem 1rem;
+  border: 1px solid #E6E9ED;
+}
+.dashboard-cards:hover {
+  box-shadow: 0 15px 10px -10px rgba(31, 31, 31, 0.5);
+  transition: all 0.3s ease;
+}
+.dashboard-cards .fas {
+  font-size: 6rem;
+}
+.dashboard-cards h2 {
+  text-align: center;
+  font-size: 2.75rem;
+  color: #2A3F54;
+  font-weight: 500;
+}
+.dashboard-cards .dashboard-card-icon {
+  padding-top: 2rem;
+  text-align: center;
+  color: #a9a9a9;
+}
+
+.file-upload-header {
+  font-size: 1.25rem;
+}
+.file-upload-add-file {
+  width: 170px;
+  height: 170px;
+}
+.post-list-item > li .file-upload-add-file label span {
+  margin-left: 0;
+}
+
+.file-upload-add-file > a,
+.file-upload-add-file > label {
+  color: #BCBEC0;
+  border: 2px dashed #BCBEC0;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.file-upload-add-file > a + .file-label,
+.file-upload-add-file > label + .file-label {
+  margin-top: 5px;
+}
+.file-upload > a:visited, .file-upload > a:active, .file-upload > a:hover {
+  color: #BCBEC0;
+}
+.file-uploaded {
+  width: 170px;
+  height: 170px;
+  background-color: #BCBEC0;
+  border-radius: 10px;
+  position: relative;
+  padding: 0 0.5rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.file-uploaded > a:first-child {
+  align-self: start;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: #A7A9AC;
+}
+.file-uploaded > img:not(.wp-image) {
+  display: none;
+}
+
+.document-uploaded {
+  width: 170px;
+  height: 170px;
+  background-color: #BCBEC0;
+  border-radius: 10px;
+  position: relative;
+  padding: 0 2.75rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+.document-uploaded > a:first-child {
+  align-self: start;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: #A7A9AC;
+}
+
+.video-uploaded {
+  flex: 1 1 290px;
+  max-width: 290px;
+  padding-right: 15px;
+}
+
+.bulletpoint-slide {
+  margin-top: 35px;
+}
